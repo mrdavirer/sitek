@@ -100,10 +100,13 @@ font-weight: 800;
 width: 30px;
 height: 30px;
 float: right;
-padding: auto;
+padding-top: 10px;
+padding-bottom: 14px;
+padding-left: 0;
+padding-right: 16px;
 }
-.basket img{
-    width: 100%;
-    height: 100%;
-    padding: 14px;
-    }
+
+.basket:hover {
+color:#ffc107 ;
+transition: all 500ms ease;
+}
